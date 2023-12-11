@@ -1,0 +1,28 @@
+:root {
+    --primary: #f2d544;
+    --dark-blue: #130c24;
+    --black: #233030;
+    --gray: #999999;
+    --beige: #f5f5f1;
+    --gap: 80px;
+    --text-color: white;
+    --light-icon: white;
+    --gray-dark: #666666;
+    --dark-icon: var(--black);
+    --anchor-color: var(--primary);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, system-ui;
+    margin: 0;
+    /* background-color: var(--dark-blue); */
+    color: white;
+}
+
+input, textarea, button, select {
+    font: inherit;
+}
