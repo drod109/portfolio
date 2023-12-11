@@ -1,0 +1,11 @@
+.btn {
+    all: unset;
+    box-sizing: border-box;
+    outline: revert;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.87rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
