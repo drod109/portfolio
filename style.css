@@ -10,6 +10,8 @@
 body {
     font-family: Poppins, system-ui;
     margin: 0;
+    background-color: var(--dark-blue);
+    color: white;
 }
 
 input, textarea, button, select {
@@ -18,6 +20,7 @@ input, textarea, button, select {
 
 :root {
     --primary: #f2d544;
+    --dark-blue: #130c24;
     --black: #233030;
     --text-color: white;
     --gray: #999999;
