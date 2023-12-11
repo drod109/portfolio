@@ -5,7 +5,18 @@
     display: inline-block;
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 0.87rem;
+    font-size: 0.88rem;
     line-height: 1.5;
     font-weight: 600;
+    letter-spacing: 2px;
+    transition: translate 180ms, opacity 180ms;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:active {
+    translate: 1px 1px;
 }
