@@ -16,13 +16,27 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: var(--dark-blue);
+    color: var(--text-color);
+}
+
 body {
     font-family: Poppins, system-ui;
     margin: 0;
-    /* background-color: var(--dark-blue); */
-    color: white;
 }
 
 input, textarea, button, select {
     font: inherit;
+}
+
+::selection {
+    background-color: var(--primary);
+    color: var(--black);
+}
+
+@media (max-width: 37.5rem) {
+    :root {
+        --gap: 30px;
+    }
 }
