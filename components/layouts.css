@@ -1,5 +1,6 @@
 .layout-section {
     padding-bottom: 200px;
+    scroll-margin-top: 20px;
 }
 
 .layout-section-title {
@@ -9,6 +10,7 @@
 .layout-grid-half {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
 }
 
 @media (max-width: 37.5rem) {
