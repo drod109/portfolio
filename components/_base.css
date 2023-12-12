@@ -30,12 +30,6 @@ html {
     color: var(--text-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    html {
-        scroll-behavior: smooth;
-    }
-}
-
 body {
     font-family: Poppins, system-ui;
     margin: 0;
@@ -54,5 +48,8 @@ input, textarea, button, select {
 @media (max-width: 37.5rem) {
     :root {
         --gap: 30px;
+    }
+    html {
+        scroll-behavior: smooth;
     }
 }
