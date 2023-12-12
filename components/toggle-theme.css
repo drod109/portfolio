@@ -1,0 +1,18 @@
+html {
+    position: relative;
+}
+
+#toggle-theme {
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+}
+
+#toggle-theme:active {
+    translate: 1px 1px;
+    z-index: 1;
+}

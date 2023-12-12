@@ -16,9 +16,24 @@
     box-sizing: border-box;
 }
 
+html.light-theme {
+    background-color: var(--beige);
+    --text-color: var(--black);
+    --gray-light: var(--gray-dark);
+    --light-icon: var(--black);
+    --dark-icon: white;
+    --anchor-color: var(--black);
+}
+
 html {
     background-color: var(--dark-blue);
     color: var(--text-color);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 body {
