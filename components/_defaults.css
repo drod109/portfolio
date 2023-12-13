@@ -8,10 +8,16 @@ a:hover {
 	opacity: 1;
 }
 
-p {
+p,
+blockquote {
 	color: var(--gray-light);
 }
 
 strong {
 	font-weight: inherit;
+}
+
+figure,
+blockquote {
+	margin: 0;
 }
