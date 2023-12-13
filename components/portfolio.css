@@ -1,0 +1,19 @@
+.portfolio {
+    display: flex;
+    gap: var(--gap);
+    margin-bottom: 30px;
+}
+
+.portfolio-screenshot {
+    border-radius: 50%;
+}
+
+.portfolio:nth-child(odd) .portfolio-screenshot {
+    order: 1;
+}
+
+@media (max-width: 37.5rem) {
+    .portfolio {
+        display: block;
+    }
+}
