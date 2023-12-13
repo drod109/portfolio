@@ -1,15 +1,14 @@
-html {
-    position: relative;
-}
-
 #toggle-theme {
     all: unset;
     outline: revert;
     box-sizing: border-box;
+    cursor: pointer;
     position: fixed;
     top: 5px;
     right: 5px;
     padding: 5px;
+    z-index: 1;
+    transition: translate 180;
 }
 
 #toggle-theme:active {
